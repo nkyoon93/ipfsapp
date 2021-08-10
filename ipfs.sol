@@ -10,4 +10,16 @@ contract ipfs {
     function getHash() public view returns (string memory) {
         return ipfsHash;   //onn;y view&returns the hash, cannot modify 
     }
+
+    //function checkInbox()
+    //    public
+    //{
+    //    string memory ipfs_hash = ipfsInbox[msg.sender];
+    //    if(bytes(ipfs_hash).length == 0) {
+    //        emit inboxResponse("Empty Inbox");
+    //    } else {
+    //        ipfsInbox[msg.sender] = "";
+    //        emit inboxResponse(ipfs_hash);
+    //    }
+    //}  implementing... 'checks ipfs card box status'
 }
